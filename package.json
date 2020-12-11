@@ -1,0 +1,21 @@
+{
+  "name": "cra-template-zero",
+  "version": "1.0.0",
+  "description": "A template for Create React App",
+  "author": "Peter R. Stuhlmann",
+  "main": "template.json",
+  "keywords": [
+    "react",
+    "create-react-app",
+    "cra-template",
+    "template"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "template",
+    "template.json"
+  ]
+}
