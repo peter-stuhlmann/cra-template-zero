@@ -6,3 +6,6 @@
 
 # deployment
 .vercel
+
+# environment variables
+.env
