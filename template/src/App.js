@@ -3,14 +3,19 @@ import { BrowserRouter } from 'react-router-dom';
 
 import './assets/css/global.css';
 
+import Footer from './components/Footer';
+import Header from './components/Header';
+import Loading from './components/Loading';
 import Router from './components/Router';
 
 export default function App() {
   return (
     <BrowserRouter>
-      <Suspense fallback={'Loading...'}>
+      <Header />
+      <Suspense fallback={<Loading />}>
         <Router />
       </Suspense>
+      <Footer />
     </BrowserRouter>
   );
 }
