@@ -6,7 +6,7 @@ import './assets/css/global.css';
 import Footer from './components/Footer';
 import Header from './components/Header';
 import Loading from './components/Loading';
-import Router from './components/Router';
+import Router from './Router';
 
 export default function App() {
   return (
