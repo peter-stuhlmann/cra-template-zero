@@ -17,8 +17,8 @@ export default function Router() {
 
   return (
     <Routes>
-      <Route exact path="/" element={<Home />} />
-      <Route element={<NotFound />} />
+      <Route path="/" element={<Home />} />
+      <Route path="*" element={<NotFound />} />
     </Routes>
   );
 }
